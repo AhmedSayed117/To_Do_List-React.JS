@@ -1,0 +1,35 @@
+/* Start Table */
+.container table{
+    min-width: 100%;
+    border-spacing: 0;
+}
+.container table th{
+    font-weight:bold ;
+    text-transform: uppercase;
+    background-color: #07075c;
+    color: white;
+}
+.container table td{
+    font-size: 20px;
+    padding: 15px;
+    text-transform: capitalize;
+}
+.container table th,
+.container table tr{
+    padding: 20px;
+    text-align: center;
+}
+.container table tr:nth-child(odd){
+    background-color: #CCC;
+}
+.container table td:last-child{
+    color: red;
+}
+.container table td:last-child span:hover{
+    cursor: pointer;
+}
+.Empty{
+    text-align: center;
+    text-transform: lowercase;
+}
+/* end Table */
