@@ -32,4 +32,9 @@
     text-align: center;
     text-transform: lowercase;
 }
+svg[stroke="currentColor"]{
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
 /* end Table */

@@ -7,6 +7,9 @@
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
+.main{
+  margin: 20px 0;
+}
 html{
   scroll-behavior: smooth;
 }

@@ -1,0 +1,26 @@
+form{
+    width: 100%;
+    margin-top: 20px;
+}
+input[type="text"],
+input[type="submit"],
+input[type="date"]{
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #CCC;
+    width: 31.33%;
+    float: left;
+}
+input[type="submit"],
+input[type="date"]{
+    cursor: pointer;
+}
+input[type="text"]:hover,
+input[type="submit"]:hover,
+input[type="date"]:hover{
+    outline: 2px solid #07075C;
+    border: 1px solid white;
+}
+.clear{
+    clear: both;
+}
